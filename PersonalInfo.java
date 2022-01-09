@@ -246,7 +246,7 @@ public class PersonalInfo {
 				String name = njformattedtextfield.getText();
 				setName(name);
 				label2.setText("Update!");
-				namelabel.setText("密碼: " + name);
+				namelabel.setText("姓名: " + name);
 			}
 		});
 		panel.add(button_click);
@@ -271,7 +271,7 @@ public class PersonalInfo {
 				String major = mjformattedtextfield.getText();
 				setMajor(major);
 				label3.setText("Update!");
-				majorlabel.setText("密碼: " + major);
+				majorlabel.setText("主修: " + major);
 			}
 		});
 		panel.add(button_click);
